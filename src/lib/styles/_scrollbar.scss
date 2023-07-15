@@ -4,7 +4,7 @@
         &-scrollbar {
             display: block;
             overflow: auto;
-            width: .4rem; height: 0;
+            width: 4px; height: 0;
 
             &-track, &-track-piece {
                 background-color: transparent;
@@ -12,7 +12,7 @@
 
             &-thumb {
                 background-color: $primary;
-                border-radius: 1rem;
+                border-radius: 10px;
 
                 &:hover {
                     cursor: pointer;
@@ -28,6 +28,6 @@
         }
     }
 
-    scrollbar-width: thin;
+    scrollbar-width: auto;
     scrollbar-color: $primary transparent;
 }

@@ -1,21 +1,23 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+
 import { defineConfig } from 'vite';
-import { global_scss } from './config.js';
+import { global_styles } from './config.js';
 
 export default defineConfig({
 	plugins: [sveltekit()],
-	compilerOptions: {
-		customElement: true
-	},
 	css: {
 		preprocessorOptions: {
 			scss: {
-				additionalData: global_scss
+				additionalData: global_styles
 			}
 		}
 	},
 	build: {
-		minify: true,
-		cssMinify: true
+		// minify: true,
+		// cssMinify: true,
+		lib: {
+			entry: './dev/main.ts',
+			name: 'MyLib'
+		}
 	}
 });

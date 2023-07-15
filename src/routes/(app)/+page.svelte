@@ -1,5 +1,8 @@
 <script>
-    import Button from "$tag/Button.svelte";
+    import '$tag/Button.svelte'
 </script>
 
-<Button>Hello</Button>
+<neat-button name="Shahriori" type="submit">Hello</neat-button>
+
+<style lang="scss">
+</style>

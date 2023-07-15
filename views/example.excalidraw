@@ -1,0 +1,181 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "SLdjjgyr3rNyOlu4YqxcO",
+      "type": "text",
+      "x": 518,
+      "y": 191,
+      "width": 232.03125,
+      "height": 43.199999999999996,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "seed": 220798270,
+      "version": 97,
+      "versionNonce": 15011106,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "eKkudlcoPCIaNa_zbBwgF",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1688930183562,
+      "link": null,
+      "locked": false,
+      "text": "Сделать это",
+      "fontSize": 36,
+      "fontFamily": 3,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "baseline": 35,
+      "containerId": null,
+      "originalText": "Сделать это",
+      "lineHeight": 1.2
+    },
+    {
+      "id": "ugpi1IVmHvcYdirIajaYk",
+      "type": "text",
+      "x": 1074.078125,
+      "y": 209,
+      "width": 189.84375,
+      "height": 43.199999999999996,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "seed": 742871458,
+      "version": 453,
+      "versionNonce": 980195902,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "eKkudlcoPCIaNa_zbBwgF",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1688930215997,
+      "link": null,
+      "locked": false,
+      "text": "Потом это",
+      "fontSize": 36,
+      "fontFamily": 3,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "baseline": 35,
+      "containerId": null,
+      "originalText": "Потом это",
+      "lineHeight": 1.2
+    },
+    {
+      "id": "eKkudlcoPCIaNa_zbBwgF",
+      "type": "arrow",
+      "x": 764.9999999999999,
+      "y": 219.52214415883782,
+      "width": 295.0781250000001,
+      "height": 10.63766300551049,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "seed": 1648576318,
+      "version": 1034,
+      "versionNonce": 1486529150,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "pMV8h0ZseRhFBmGBXyFfh"
+        }
+      ],
+      "updated": 1688930215998,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          295.0781250000001,
+          10.63766300551049
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "SLdjjgyr3rNyOlu4YqxcO",
+        "focus": 0.09742314961844875,
+        "gap": 14.96875
+      },
+      "endBinding": {
+        "elementId": "ugpi1IVmHvcYdirIajaYk",
+        "focus": -0.1393366373071113,
+        "gap": 14
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    },
+    {
+      "id": "pMV8h0ZseRhFBmGBXyFfh",
+      "type": "text",
+      "x": 865.6640625,
+      "y": 215.24097566159307,
+      "width": 93.75,
+      "height": 19.2,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "seed": 671016446,
+      "version": 22,
+      "versionNonce": 1281204926,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1688930217446,
+      "link": null,
+      "locked": false,
+      "text": "между ними",
+      "fontSize": 16,
+      "fontFamily": 3,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 15,
+      "containerId": "eKkudlcoPCIaNa_zbBwgF",
+      "originalText": "между ними",
+      "lineHeight": 1.2
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
