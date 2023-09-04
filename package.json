@@ -51,6 +51,7 @@
 	],
 	"type": "module",
 	"dependencies": {
+		"svelecte": "^3.16.4",
 		"svelte-body": "^1.4.0"
 	}
 }

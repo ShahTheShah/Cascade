@@ -1,5 +1,5 @@
 <script>
-    import { lazyload } from '$module/lazyLoadImage.js';
+    // import { lazyload } from '$module/lazyLoadImage.js';
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -7,7 +7,7 @@
     class="image {$$props.class ? $$props.class : null}"
     on:click
 >
-    <img use:lazyload data-src={$$props.src} alt={$$props.alt} />
+    <img src={$$props.src} alt={$$props.alt} />
 </div>
 
 <style lang="scss">

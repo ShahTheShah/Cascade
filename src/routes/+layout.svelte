@@ -1,6 +1,8 @@
 <script lang="ts">
     import '$src/app.scss';
 
+    import Header from '$component/Header.svelte';
+
 	import { BodyPrun } from '$store/defaults';
 
     import { Body } from 'svelte-body';
@@ -8,10 +10,10 @@
     import getClientTheme from '$tool/get-client-theme';
 
     let
-        bodyIsPruning: boolean,
+        bodyIsPrun: boolean,
         clientTheme: boolean;
 
-    BodyPrun.subscribe(isPrun => bodyIsPruning = isPrun);
+    BodyPrun.subscribe(isPrun => bodyIsPrun = isPrun);
 
     onMount(async() => {
         clientTheme = await getClientTheme(window);
@@ -20,15 +22,16 @@
 
 <svelte:head>
     <title>NeatCascade</title>
-    <link rel="icon" href="/{ clientTheme ? 'favicon-dark' : 'favicon' }.svg">
+    <link rel="icon" href="/{ clientTheme ? 'favicon' : 'favicon-dark' }.svg">
 </svelte:head>
 
-<Body class="{ bodyIsPruning ? 'pruning' : '' }" />
+<Body class="{ bodyIsPrun && 'prun' }" />
 
+<Header />
 <slot />
 
 <style global lang="scss">
-    body.pruning {
+    body.prun {
         width: 100vw; height: 100vh;
         overflow: hidden;
     }

@@ -13,7 +13,8 @@ export default {
         },
     }),
     compilerOptions: {
-        customElement: true
+        name: 'neat',
+        cssHash: ({ name, hash, filename }) => `${name}-${hash(filename)}`
     },
     kit: {
         adapter: adapter(),

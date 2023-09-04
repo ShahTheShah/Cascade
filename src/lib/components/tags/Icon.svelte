@@ -5,7 +5,7 @@
     xmlns="http://www.w3.org/2000/svg"
     on:click
 >
-    <use xlink:href='{host}/icons/sprite.svg#{$$props.name}'  />
+    <use xlink:href='./{$$props.name}.svg'  />
 </svg>
 
 <style lang="scss">

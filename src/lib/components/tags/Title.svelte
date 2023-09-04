@@ -70,11 +70,11 @@
 <style lang="scss">
     $class: ".title";
     #{$class} {
-        font-size  : $font-z_title;
-        font-family: $font-f_title;
-        font-weight: $font-w_title;
-        line-height: $line-h_title;
-        color      :  $color_title;
+        font-size  : $font-z;
+        font-family: $font-f;
+        font-weight: $font-w;
+        line-height: $line-h;
+        color      :  $color;
 
         &.type1 {
             font-family: Epice;
